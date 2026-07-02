@@ -10,14 +10,14 @@ $pint = json_decode((string) file_get_contents(__DIR__ . '/pint.json'), true);
 
 $finder = Finder::create()
     ->in([
-        __DIR__ . '/app',
-        __DIR__ . '/bootstrap',
-        __DIR__ . '/config',
-        __DIR__ . '/database',
-        __DIR__ . '/public',
-        __DIR__ . '/routes',
-        __DIR__ . '/tests',
-        __DIR__ . '/resources',
+        __DIR__ . '../../app',
+        __DIR__ . '../../bootstrap',
+        __DIR__ . '../../config',
+        __DIR__ . '../../database',
+        __DIR__ . '../../public',
+        __DIR__ . '../../routes',
+        __DIR__ . '../../tests',
+        __DIR__ . '../../resources',
     ])
     ->exclude(...$pint['exclude'])
     ->name('*.php')
