@@ -1,0 +1,14 @@
+{
+  "name": "tonegabes/mp-coding-standards",
+  "description": "Coding standards utilizados pelos projetos do MPAC.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^8.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tonegabes\\CodingStandards\\": "src/"
+    }
+  }
+}
